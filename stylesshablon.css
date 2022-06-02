@@ -1,0 +1,961 @@
+body{
+background-color: cadetblue;
+
+}
+
+#container{
+    border: solid 1px rgba(255, 0, 174, 0.711);
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+
+
+
+
+
+
+
+}
+
+#container div{
+    border: solid 1px rgba(0, 255, 34, 0.711);
+margin: 3px;
+text-align: center;
+}
+.header{
+  background-color: aliceblue;
+  color: rgb(164, 140, 246);
+ height: 150px;
+
+}
+
+.header img{
+height: 150px;
+  
+}
+
+.main{
+   background-color: rgb(144, 158, 238);
+  display: flex;
+
+}
+
+
+.content{
+flex: 70%;
+display: flex;
+flex-direction: column;
+
+
+}
+
+.post{
+background-color: rgb(177, 123, 247);
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+padding: 10px;
+}
+
+.post img{
+flex: 40%;
+height: 500px;
+width: 30%;
+background-color: aliceblue;
+background-color: aliceblue;
+border: solid 1px #000;
+box-shadow: 10px 10px 5px 0px #000;
+border-radius: 10px;
+margin:  10px;
+
+
+}
+.post.text{
+flex: 60%;
+height: 500px;
+align-items: center;
+justify-content: center;
+
+background-color: aliceblue;
+border: solid 1px #000;
+box-shadow: 10px 10px 5px 0px #000;
+border-radius: 10px;
+margin:  10px;
+
+}
+.text h2{
+color: crimson;
+font-family: 'Press Start 2P', cursive;
+
+}
+    
+
+.text p{
+  color: chartreuse;
+  background-color: black;
+
+}
+
+.text a{
+  text-decoration: none;
+  background-color: crimson;
+   color: rgb(74, 24, 34);
+   border: solid 2px rgb(255, 0, 0);
+   border-radius: 5px;
+}
+
+
+
+.sidebar{
+flex: 30%;
+
+}
+
+.footer {
+margin-top: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+ .footer img{
+ flex: 40%;
+ margin: 10px;
+
+
+ }
+
+ .footer .text2{
+  flex: 30%;
+  margin: 10px;
+
+ }
+
+
+#menu1{
+position:relative ;
+display: block;
+width: 100%;
+height: auto;
+
+
+z-index: 10;
+
+}
+#menu1 ul{
+  position:relative ;
+  display: block;
+  width: 100%;
+  height: auto;
+  
+margin: 0; 
+padding: 0; 
+list-style: none;
+
+}
+
+#menu1 >ul::after{
+display: block;
+width: 100%;
+height: 0;
+clear: both;
+content: "";
+
+
+}
+
+#menu1 ul li{
+position: relative;
+display: block;
+float: left;
+width: auto;
+height: auto;
+
+
+}
+ #menu1 ul li a{
+  display: block;
+text-decoration: none;
+padding: 10px;
+height: 38px;
+box-sizing: border-box;
+background-color: rgb(246, 198, 249);
+color: azure;
+border: solid 1px rgb(255, 255, 255);
+
+ }
+
+#menu1 ul li ul{
+position: absolute;
+top: 40px;
+left: 0;
+display: none;
+width: 200px;
+background-color: #000;
+
+
+}
+
+#menu1 ul li:hover> ul{
+    display: block;
+
+
+}
+
+#menu ul li ul li{
+  float: none;
+  width: 100%;
+}
+#menu ul li ul li a{
+background-color: blue;
+color: aliceblue;
+border: solid 1 px rgb(255, 255, 255);
+}
+
+#menu ul li:hover a{
+  background-color: rgb(133, 133, 220);
+  color: aliceblue;
+  border: solid 1 px rgb(255, 255, 255);
+  }
+  #menu ul li ul li:hover a{
+    background-color: blue;
+    color: aliceblue;
+    border: solid 1 px rgb(255, 255, 255);
+    }
+      
+.slider{
+width: 1100px;
+height: 600px;
+overflow: hidden;
+border: solid 10px rgb(255, 255, 255);
+
+}
+
+.li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+.niz{
+
+display: flex;
+
+}
+
+.bar{
+height: 8px;
+width: 30px;
+margin: 10px;
+cursor: pointer;
+background-color: aliceblue;
+opacity: .5;
+border-radius: 10px;
+transition: all .4s ease;
+
+
+}
+
+.bar :hover{
+opacity: absolute;
+visibility: hidden;
+
+}
+
+input[name="r"]{
+position: absolute;
+visibility: hidden;
+
+}
+
+.slides{
+width: 400%;
+height: 100%;
+display: flex;
+
+}
+ 
+.slide{
+width: 25%;
+transition: all .6s ease;
+
+}
+
+.slide img{
+width: 100%;
+height: 100%;
+
+}
+
+#r1:checked ~ .s1{
+margin-left: 0%;
+
+}
+#r1:checked ~ .s1{
+  margin-left: -25%;
+  
+  }
+#r3:checked ~ .s1{
+    margin-left: -50%;
+    
+    }
+#r4:checked ~ .s1{
+      margin-left: -75%;
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

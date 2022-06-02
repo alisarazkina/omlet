@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(226, 195, 255);
+background-image: url("jpg/2844855bcd3fee9647a8f6eeb2cb56cb.jpg");
+
+background-size: cover 500px 505px ;
+background-repeat: no-repeat;
+background-position: 500px 1px;
+}
+p{
+    background-color: rgb(185, 101, 224);
+color: rgb(127, 80, 171);
+margin: 10px;
+padding: 1px;
+text-align: center;
+width: 47%;
+
+
+
+}
+p img{
+width: 35%;
+height: 50%;
+margin: 2px;
+box-shadow: 72px 44px 26px -22px rgba(125,49,125,1);
+border-radius: 0px 45px 0px 46px
+border-radius: 0px 89px 0px 89px;
+
+}
+
+ul{
+margin: 0;
+padding: 0;
+list-style: none;
+width: 100%;
+
+}
+
+li{
+margin: 0;
+padding: 0;
+float: left;
+width: auto;
+
+}
+
+
+
+a{
+    padding: 10px;
+background-color: black;
+color: aliceblue;
+text-align: center;
+text-decoration: none;
+border: solid 1px rgb(255, 255, 255);
+
+}
+
+
+
+li:hover a {
+background-color: aliceblue;
+color: black;
+border: solid 1px rgb(255, 255, 255);
+
+}
