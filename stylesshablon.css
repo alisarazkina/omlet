@@ -234,10 +234,11 @@ border: solid 10px rgb(255, 255, 255);
 
 }
 
-.li{
+.ll{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
 
 
@@ -298,7 +299,7 @@ height: 100%;
 margin-left: 0%;
 
 }
-#r1:checked ~ .s1{
+#r2:checked ~ .s1{
   margin-left: -25%;
   
   }
